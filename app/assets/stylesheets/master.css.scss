@@ -1,0 +1,75 @@
+
+.navbar {
+border-radius: 0;
+box-shadow: 0px 1px 3px #2a2a2a;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: normal;
+
+}
+
+.navbar-inverse a.navbar-brand {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 17px;
+font-weight: 400;
+color: white;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.hero {
+
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+
+}
+
+.frosty {
+	background: rgba(250,242,222, 0.4);
+	color: white;
+}
+
+.frosty h1 {
+	font-family: "Helvetica Neue", Helvetica;
+  	font-weight: 100;
+  	text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+
+	  border-radius:0;
+}
+
+body {
+
+	background: url('bg.png');
+	 font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 30px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
+}
+
