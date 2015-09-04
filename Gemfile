@@ -36,6 +36,7 @@ gem 'carrierwave'
 gem 'figaro'
 gem 'carrierwave-aws'
 gem 'mini_magick'
+gem 'stripe'
 
 
 group :doc do
