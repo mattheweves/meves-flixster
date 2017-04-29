@@ -39,6 +39,8 @@ gem 'carrierwave-aws'
 gem 'mini_magick'
 gem 'stripe'
 gem 'ranked-model'
+gem 'fog'
+gem 'fog-aws'
 
 
 group :doc do

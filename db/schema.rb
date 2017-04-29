@@ -58,6 +58,8 @@ ActiveRecord::Schema.define(version: 20150904042718) do
     t.datetime "updated_at"
   end
 
+  add_index "sections", ["course_id"], name: "index_sections_on_course_id", using: :btree
+
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
